@@ -16,7 +16,7 @@ h1 {
     /* padding-bottom: 20px; */
 }
 
-h3 {
+.heading-text h3 {
     font-weight: 600;
     font-size: 40px;
 }
@@ -184,13 +184,50 @@ footer {
     border-radius: 10px;
 }
 
-.modal-dialog {
-    position: absolute;
-    top: 32%;
-    left: 35%;
-    width: 100%;
-}
-
 .modal-content {
     border-top: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 38px;
+        line-height: 1.4;
+    }
+
+    #card-section {
+        margin-top: 7rem;
+    }
+
+    .heading-text{
+        margin-top: -8.5rem;
+    }
+
+    .heading-text h3 {
+        font-size: 2rem;
+    }
+
+    .heading-text {
+        margin-left: -12px !important;
+    }
+
+    .bot {
+        padding: 2rem 2rem 2rem 2rem;
+        width: 100%;
+    }
+
+    .extra h4{
+        margin-top: 2rem !important;
+        margin-bottom: 1rem;
+        font-size: 1.6rem;
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .extra textarea {
+        margin-bottom: 1rem;
+    }
+
+    .modal-content {
+        position: absolute;
+        left: 0px;
+    }
 }

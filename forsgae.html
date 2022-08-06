@@ -20,7 +20,7 @@
                         <h1>Bonus/Airdrop</h1>
                         <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal72"  class="btn btn-primary">Connect Wallet</button>
                         <div class="modal fade" id="exampleModal72" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLabel">Enter Wallet Address</h5>
@@ -31,7 +31,7 @@
                                         <input required class="wallet-address" placeholder="0x00000000000000000000" type="text" name="address" id="">
                                     </div>
                                     <div class="modal-footer">
-                                            <a href="./formpage.html"><button type="button" class="btn btn-dark">Proceed</button></a>
+                                        <a href="./formpage.html"><button type="button" class="btn btn-dark">Proceed</button></a>
                                     </div>
                                     </div>
                                 </div>
@@ -43,18 +43,20 @@
         </div>
     </div>
 
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <h3>Please Select Issues Category</h3>
-                <p class="diff">which of this is related to your issue?</p>
-            </div>
-        </div>  
-    </section>
-
+<div id="card-section">
     <section class="content-box-md">
         <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="heading-text">
+                            <h3>Please Select Issues Category</h3>
+                            <p class="diff">which of this is related to your issue?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+    
             <div class="row ">
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <button data-bs-toggle="modal" data-bs-target="#exampleModal72" class="bot">
@@ -64,7 +66,7 @@
                     </button>    
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <button data-bs-toggle="modal" data-bs-target="#exampleModal72" class="bot">
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal72" class="bot error-1">
                         <img src="./dashboardicon.png" alt="">
                         <h6>Swap/Exchange</h6>
                         <p>Issues related to swapping and exchange of tokens<br> Click here</p>
@@ -100,6 +102,7 @@
             </div>
         </div>    
     </section>
+</div>
 
     <section class="content-box-md hero-down">
         <div class="container">
